@@ -1,0 +1,22 @@
+.buttonTop{
+    position: fixed;
+    bottom: 200px;
+    right: -100px;
+   &__top{
+    font-size: 50px;
+    color: $hover-icons;
+   }
+
+}
+
+
+@media (max-width:608px){
+    
+    .buttonTop{ 
+        &__top{
+            font-size: 35px;
+           }
+    
+    }
+    
+}

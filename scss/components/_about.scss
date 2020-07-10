@@ -1,0 +1,179 @@
+.about{
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 80vw;
+    height: 500px;
+    background-color:$primary-color;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-bottom: 50px;
+
+    &__title{
+     margin-bottom: 20px;
+     color: $secondary-color;
+     font-size: 40px;
+
+     
+    }
+
+    &__container{
+        width: 70%;
+        height: auto;
+     }
+
+     &__links{
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 20px;  
+        margin-bottom: 20px;
+        width: 70%;
+        height: auto;
+        padding:5px;
+
+
+        &--contact{
+             width: 40%;
+             margin-right: 10px;
+             text-decoration: none;
+             background-color: secondary-color;
+             color: $secondary-color;
+             font-weight: bold;
+             border: 2px solid $hover-icons;
+             padding-top: 10px;
+             padding-bottom: 10px;
+
+             &:hover{
+                background-color: $hover-icons;
+                color: $secondary-color;
+                border: 2px solid $secondary-color;
+             }
+        }
+
+        &--cv{
+            width: 40%;
+            text-decoration: none;
+            background-color: $hover-icons;
+            color: $secondary-color;
+            border: 2px solid $secondary-color;
+            padding-bottom: 10px;
+            padding-top: 10px;
+
+            &:hover{
+                background-color: $primary-color;
+                color: $secondary-color;
+                border: 2px solid $hover-icons; 
+            }
+
+       }
+    
+      }
+
+}
+
+.about-paragrah1{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    line-height: 10px;
+    line-height: 30px;
+    text-align: justify;
+    font-size: 20px;
+    color: $secondary-color;
+}
+
+
+
+
+
+@media(max-width:608px) {
+
+    .about{
+        box-sizing: border-box;
+        margin: 0 auto;
+        width: 80vw;
+        height: auto;
+        background-color:$primary-color;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 50px;
+    
+        &__title{
+         margin-bottom: 20px;
+         color: $secondary-color;
+         font-size: 25px;
+    
+         
+        }
+    
+        &__container{
+            width: 70%;
+            height: auto;
+           
+         }
+
+         &__links{
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 20px;  
+            margin-bottom: 20px;
+            width: 70%;
+            height: auto;
+            padding:5px;
+    
+    
+            &--contact{
+                 width: 100%;
+                 margin-right: 10px;
+                 text-decoration: none;
+                 background-color: secondary-color;
+                 color: $secondary-color;
+                 font-weight: bold;
+                 border: 2px solid $hover-icons;
+                 padding-top: 10px;
+                 padding-bottom: 10px;
+            }
+    
+            &--cv{
+                width: 100%;
+                text-decoration: none;
+                background-color: $hover-icons;
+                color: $secondary-color;
+                border: 2px solid $secondary-color;
+                padding-bottom: 10px;
+                padding-top: 10px;
+    
+           }
+        
+        }
+    
+    
+    
+    }
+    
+    .about-paragrah1{
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        padding: 14px;
+        line-height: 4px;
+        line-height: 25px;
+        text-align: justify;
+        font-size: 20px;
+    }
+    
+    
+    
+    
+}
+
+
